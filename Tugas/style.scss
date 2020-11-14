@@ -1,0 +1,29 @@
+$bggambar :url(https://tesla-project-eu.azurewebsites.net/wp-content/uploads/2018/09/HIGHER-EDUCATION-conference-.jpg);
+$mycolour : rgb(95, 223, 255);
+$bgcolour : green;
+$number1 : 20px;
+$align1 : center;
+
+.navbar{
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-image: $bggambar;
+	}
+	li{
+		float: left;
+		margin-right: $number1;
+	}
+	li a{
+		display: block;
+		color: black;
+		text-align: $align1;
+		padding: 14px $number1;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color: $mycolour;
+	}
+}

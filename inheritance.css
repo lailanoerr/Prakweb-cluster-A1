@@ -1,0 +1,24 @@
+.satu {
+  border: 1 px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.dua {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  color: white;
+  border: 10px solid black;
+}
+
+.satu {
+  margin-left: 330px;
+  background-color: chartreuse;
+}
+
+.dua {
+  margin-left: 330px;
+  background-color: gold;
+}
+/*# sourceMappingURL=inheritance.css.map */

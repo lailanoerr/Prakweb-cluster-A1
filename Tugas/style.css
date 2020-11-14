@@ -1,0 +1,26 @@
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  background-image: url(https://tesla-project-eu.azurewebsites.net/wp-content/uploads/2018/09/HIGHER-EDUCATION-conference-.jpg);
+}
+
+.navbar li {
+  float: left;
+  margin-right: 20px;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #5fdfff;
+}
+/*# sourceMappingURL=style.css.map */
