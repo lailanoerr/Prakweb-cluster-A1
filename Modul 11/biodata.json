@@ -1,0 +1,18 @@
+{
+	"nama": {
+		"awal": "Laila Noer",
+		"akhir": "Islami Hidayatullah"
+	},
+	"jenisKelamin": "Perempuan",
+	"saudara": "Muhammed Iqbal Baihaqi Hidayatullah",
+	"orangtua": {
+		"Ayah" : "Nur Hidayat",
+		"Ibu" : "Yuli Yati"
+	},
+	"hobby": "Mendengarkan Musik",
+	"alamat": "Korpri Jaya, Sukarame, Bandar Lampung",
+	"sosialMedia": {
+		"instagram": "lailanoerr.17",
+		"twitter" : "hllr17"
+	}
+}

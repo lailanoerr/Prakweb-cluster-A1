@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        main {
+            width: 50%;
+            margin: auto;
+        }
+
+        div {
+            padding: 20px;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="id01">Alat Sekolah</div> 
+        <section class="alat">Delapan Kursi</section>
+        <div class="alat">Sepuluh Meja</div>
+
+        <button onclick="return ubah(document.getElementById('id01'), '#F0F8FF')">fungsi getElementById</button><br>
+        <br><button onclick="return ubah(document.getElementsByClassName('alat'), '#DC143C')">fungsi getElementsByClassName()</button><br>
+        <br><button onclick="return ubah(document.getElementsByTagName('section'), '#F8F8FF')">fungsi getElementsByTagNameNS()</button><br>
+        <br><button onclick="return ubah(document.querySelector('div'), '#FFFFF0')">fungsi querySelector()</button><br> 
+        <br><button onclick="return ubah(document.querySelectorAll('div'), '#FFA500')">fungsi querrySelectorAll()</button><br>
+    </main>
+
+    <script>
+        function ubah(element, color) {
+            a=element.length;
+            if (a) {
+                for (let x=0; x<a; x++) {
+                    element[x].style.backgroundColor=color;
+                }
+                return;
+            }
+            element.style.backgroundColor=color;
+        }
+    </script>
+</body>
+</html>

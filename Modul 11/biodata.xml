@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<dataDiri>
+	<nama>
+		<awal>Laila Noer</awal>
+		<akhir>Noer Islami Hidayatullah</akhir>
+	</nama>
+
+	<jenisKelamin>Perempuan</jenisKelamin>
+	<saudara>Muhammed Iqbal Baihaqi Hidayatullah</saudara>
+	<orangtua>Nur Hidayat</orangtua>
+	<hobby>Mendengarkan Musik</hobby>
+	<alamat>
+		<desa>Korpri Jaya</desa>
+		<kecamatan>Sukarame</kecamatan>
+		<kabupaten>Bandar Lampung</kabupaten>
+	</alamat>
+
+	<sosialMedia>
+		<instagram>lailanoerr.17</instagram>
+		<twitter>hllr17</twitter>
+	</sosialMedia>
